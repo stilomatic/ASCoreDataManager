@@ -1,0 +1,5 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1 $(inherited) PMK_FOUNDATION=1 $(inherited) PMK_UIKIT=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/ChuzzleKit" "${PODS_ROOT}/Headers/OMGHTTPURLRQ" "${PODS_ROOT}/Headers/PromiseKit"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers" -isystem "${PODS_ROOT}/Headers/ChuzzleKit" -isystem "${PODS_ROOT}/Headers/OMGHTTPURLRQ" -isystem "${PODS_ROOT}/Headers/PromiseKit"
+OTHER_LDFLAGS = -ObjC -framework Foundation -framework UIKit -weak_framework AssetsLibrary
+PODS_ROOT = ${SRCROOT}/../Pods
